@@ -1,0 +1,68 @@
+Acknowledgement
+
+
+
+I have given sincere efforts in this project, but it would not have been possible without the kind support and help of many individuals and organization. At first, I would like to express my gratitude to Mr. Amit Kumar, my manager for giving me this wonderful opportunity to work under the able guidance of his team. I would like to thank Mr. Sachin Kumar, my Tech-head cum Mentor for my continuous development and enhancing my knowledge to the best in this period of two months. My thanks and appreciation also go to the people who were always available to help me out with their abilities.
+
+
+
+
+Pawan Kumar
+
+
+
+Project Objective
+
+The objective of project was to replace the pre-existing bots by new bots to make the processes costly efficient. Existing bots run on Automation Anywhere tool, which is a licensed tool and very expensive.
+Existing bots are as follow:
+1.	InterCo
+2.	Merlin
+3.	Sensitive Accounts
+These bots automate some business process.
+
+
+Technology Used
+
+Following tools and technologies are used to accomplish the project:
+1.	C#
+2.	Selenium
+3.	Python
+External software used are Visual Studio and Spyder.
+
+
+Project Description
+InterCo: This majorly involves the following tasks:
+1.	Download an excel extract from one of organization’s web application
+2.	Run macros on the downloaded extract to generate some reports
+3.	Send an email to users with the link of generated reports
+Approach:
+1.	Input to the process was provided by reading configuration file (csv file)
+2.	Selenium webdriver tool was used to automate the process of web application
+3.	This tool identifies the element one by one on the DOM by using some standard methods
+4.	For running Macros on the downloaded extract, COM object functionality is used and implemented in python and C#
+5.	COM object calls some predefined method to run macros and reports were generated
+6.	For the third task, we implemented the functioning of sending mail through SMTP using server host and port in python and C#.
+7.	We made an executable file (.exe extension) which is to be executed at users’ machine to perform all tasks.
+
+Merlin: This process involves generation of 17 different excel reports by running macros on the corresponding extract file of the process.
+We automated this process by creating COM object (Excel Application) and implementing it in c# and python to run macros on the corresponding extract file one by one to generate the reports.
+
+Like the InterCo, we made executable file of this bot which is to be executed at users’ machine.
+
+Sensitive Accounts: This process involves the following tasks:
+1.	Download an excel extract from organization’s web application 
+2.	Run macro on the downloaded excel extract to generate report
+3.	Using some ids in generated report, download some excel extract files from organization’s web application
+4.	Perform macro operation on the downloaded files and get some reports preserving the folder structure
+5.	Download some attachments from emails 
+6.	Send email to some users 
+Approach and logic used for this process was similar to InterCo process
+
+Learning
+1.	Learned new programming language C# and acquired more experience in python
+2.	Learned implementation of COM objects in programming languages like c# and python
+3.	Got handful experience of selenium tool to automate web application
+4.	Acquired knowledge on SG Fast IT Tool Sg-Lambda
+5.	Experience of working in reputed Investment Bank
+
+Thank You
